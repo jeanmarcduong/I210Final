@@ -1,0 +1,234 @@
+.navbar {
+    overflow: hidden;
+    background-color: #262262;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.navbar a:hover {
+    background-color: #929799;
+    color: white;
+}
+
+
+.office {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar .search-container {
+    float: right;
+}
+
+.navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.navbar .search-container input {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#mainbody {
+    text-align: center;
+}
+
+
+#footer {
+    font-size: 80%;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+#hotitem {
+    border: 5px solid black;
+}
+
+
+/* styles of the product list table */
+.productlist {
+    display: flex;
+    flex-direction: column;
+
+}
+.productlist div {
+    padding: 3px 5px;
+}
+
+.productlist .row {
+    display: flex;
+}
+
+.productlist .row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.productlist .header {
+    background-color: #262262;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+    color: white;
+}
+
+.productlist .col1 {
+    width: 300px;
+}
+
+.productlist .col2 {
+    width: 300px;
+}
+
+.productlist .col3 {
+    width: 300px;
+}
+
+.productlist .col4 {
+    width: 300px;
+}
+
+.productlist .col5 {
+    width: 300px;
+}
+
+.productdetail {
+    display: flex;
+}
+
+/* styles of the book list table */
+.itemlist {
+    display: flex;
+    flex-direction: column;
+}
+.itemlist div {
+    padding: 3px 5px;
+}
+
+.itemlist .row {
+    display: flex;
+}
+
+.itemlist .row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.itemlist .header {
+    background-color: darkblue;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+.itemlist .col1 {
+    width: 300px;
+}
+
+.booklist .col2 {
+    width: 300px;
+}
+
+.booklist .col3 {
+    width: 200px;
+}
+
+.booklist .col4 {
+
+}
+
+/*styles for action buttons */
+.officezone-button {
+    border-top: 1px solid #CCCCCC;
+    margin: 50px auto 20px auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.officezone-button input{
+    width: 75px;
+}
+
+.officezone-button.delete-confirmed {
+    display: none;
+}
+
+.officezone-button.delete-initial span,
+.officezone-button.delete-confirmed span {
+    color: red;
+    font: 12px/18px Arial, Sans-serif;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+/* styles of the shopping card */
+#banner .shoppingcart {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#banner .shoppingcart > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #FF9A35;
+    width: 90px;
+    height: 70px;
+    padding-top: 10px;
+}
+
+table {
+    align: center;
+}
+
+/*styles for login and registration forms*/
+div.login-container {
+    vertical-align: top;
+}
+
+div.login-container div.login {
+    vertical-align: top;
+    width: 400px;
+    margin-right: 50px;
+
+}
+div.login-container div.registration {
+    vertical-align: top;
+    border-left: 1px solid black;
+    padding-left: 100px;
+}
+
+div.login-container div {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
